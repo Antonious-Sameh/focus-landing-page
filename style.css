@@ -1,0 +1,92 @@
+*{
+    padding:0 ;
+    margin: 0;
+    font-family: sans-serif;
+}
+section{
+    background-image: url("bg.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+}
+nav .logo{
+    color: orange;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 20px;
+    cursor: pointer;
+    width: 30%;
+}
+nav div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+nav div a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.6s;
+}
+nav div a:hover{
+    color: rgb(240, 97, 97);
+    text-decoration:underline;
+    font-size: 20px;
+}
+.info{
+    width: 40%;
+    margin: 10% 7%;
+}
+.info h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 40px;
+}
+.info p{
+    margin-top: 20px;
+    color: white;
+    width: 55%;
+}
+.info button{
+    margin: 30px 0;
+    background-color: rgb(242, 136, 6);
+    padding: 15px;
+    border-radius:25px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.info button:hover{
+    background-color: orange;
+    transform: translatey(-10px);
+}
+.footer{
+    position: absolute;
+    bottom: 50px;
+    left: 6%;
+}
+.footer a i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
+    transition: 1s;
+}
+.footer a i:hover{
+    background-color: #ef8653;
+    transform: rotate(360deg);
+}
